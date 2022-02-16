@@ -8,11 +8,11 @@
 </head>
 <body>
 	<h1> Fuel Quote Form  </h1>
-	<form id="fuel_quote" action="" method="post">
+	<form id="fuel_quote" action="php_form_quote.php" method="post">
 		<ul id="fuel_quote_ul">
 			<li class="list_item">
 				<label for="fuel_quote_gallons">Gallons:<span style="color:red">*</span></label>
-				<input type="number" name="fuel_quote_gallons" id="fuel_quote_gallons">
+				<input type="number" name="fuel_quote_gallons" id="fuel_quote_gallons" min="1" max="99999">
 			</li>
 			<li class="list_item">
 				<label for="fuel_quote_address">Delivery Address:</label>
@@ -20,10 +20,10 @@
 			</li>
 			<li class="list_item">
 				<label for="fuel_quote_date">Delivery date<span style="color:red">*</span></label>
-				<input type="date" name="fuel_quote_date" id="fuel_quote_date">
+				<input type="date" name="fuel_quote_date" id="fuel_quote_date" min="2022-2-16">
 			</li>
 			<li class="list_item">
-				<button name="fuel_quote_button" id="fuel_quote_button">Submit</button>
+				<input type="submit" name="fuel_quote_button" id="fuel_quote_button"></input>
 			</li>
 			<li class="list_item">
 				<label for="fuel_quote_suggested">Suggested Price:</label>
