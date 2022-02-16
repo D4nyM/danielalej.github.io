@@ -11,15 +11,15 @@
 	<form id="fuel_quote" action="" method="post">
 		<ul id="fuel_quote_ul">
 			<li class="list_item">
-				<label for="fuel_quote_gallons">Gallons:</label>
+				<label for="fuel_quote_gallons">Gallons:<span style="color:red">*</span></label>
 				<input type="number" name="fuel_quote_gallons" id="fuel_quote_gallons">
 			</li>
 			<li class="list_item">
 				<label for="fuel_quote_address">Delivery Address:</label>
-				<textarea readonly id="fuel_quote_address" name="fuel_quote_address"></textarea>
+				<textarea readonly id="fuel_quote_address" name="fuel_quote_address" placeholder="Loading Address..."></textarea>
 			</li>
 			<li class="list_item">
-				<label for="fuel_quote_date">Delivery date</label>
+				<label for="fuel_quote_date">Delivery date<span style="color:red">*</span></label>
 				<input type="date" name="fuel_quote_date" id="fuel_quote_date">
 			</li>
 			<li class="list_item">
@@ -27,11 +27,11 @@
 			</li>
 			<li class="list_item">
 				<label for="fuel_quote_suggested">Suggested Price:</label>
-				<textarea readonly id="fuel_quote_suggested" name="fuel_quote_suggested"></textarea>
+				<textarea readonly id="fuel_quote_suggested" name="fuel_quote_suggested" ></textarea>
 			</li>
 			<li class="list_item">
 				<label for="fuel_quote_total">Total Due:</label>
-				<textarea readonly id="fuel_quote_total" name="fuel_quote_total"></textarea>
+				<textarea readonly id="fuel_quote_total" name="fuel_quote_total" ></textarea>
 			</li>
 		</ul>
 	</form>

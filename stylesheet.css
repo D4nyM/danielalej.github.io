@@ -32,6 +32,7 @@ label {
 #fuel_quote_suggested,
 #fuel_quote_total {
 	resize: none;
+	vertical-align: top;
 }
 
 #fuel_quote_button {
